@@ -86,7 +86,7 @@ let startGame = () => {
     flippedCard.addEventListener("click", function() {
       flippedCard.classList.remove("flip");
       for (let i = 1; i < delCards.length; i++) {
-        delCards[i].remove();
+       delCards[i].remove();
       }
       if (document.querySelector(".hard")) {
         playingGame.classList.remove("hard")
